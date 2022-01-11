@@ -2,7 +2,7 @@
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
-console.log(hourNow);
+console.log("Hour Now " + hourNow);
 
 switch(true) {
     case (hourNow > 18) :
