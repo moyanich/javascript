@@ -75,5 +75,7 @@ var percentages = calculatePercentages(scores, 200);
 
 function calculatePercentages(scores, totalPossibleScore) {
 
+      var $score = 
+
       
 }
