@@ -48,8 +48,9 @@ or a ternary at some point...
 */
 
 function reversed(list) {
+      var $reverseArray = list.reverse();
+      return $reverseArray.join(","); 
 
-      
 }
 
 
@@ -71,3 +72,8 @@ var scores = [50, 120, 180, 10];
 var percentages = calculatePercentages(scores, 200);
 // percentages: [25, 60, 90, 5]
 */
+
+function calculatePercentages(scores, totalPossibleScore) {
+
+      
+}
