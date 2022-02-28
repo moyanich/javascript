@@ -13,7 +13,7 @@ remove(myList, 2);
 */
 
 function remove(list, i) {
-      list.slice(i);
+      list.splice(i, i);
 }
 
 
@@ -46,6 +46,11 @@ var joined = first + second;
 You’ll probably also have to use an if/else statement 
 or a ternary at some point...
 */
+
+function reversed(list) {
+
+      
+}
 
 
 /*Task 3
