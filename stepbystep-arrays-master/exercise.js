@@ -13,7 +13,7 @@ remove(myList, 2);
 */
 
 function remove(list, i) {
-      list.splice(i, i);
+      list.splice(i, 1);
 }
 
 
@@ -74,8 +74,11 @@ var percentages = calculatePercentages(scores, 200);
 */
 
 function calculatePercentages(scores, totalPossibleScore) {
+      var percentages = [];
 
-      var $score = 
-
-      
+      for (var i = 0; i < scores.length; i++) {
+            percentages.push((100/ totalPossibleScore) * scores[i]);
+            
+      }
+      return percentages;
 }
