@@ -1,4 +1,5 @@
-/*Task 1
+/*
+Task 1
 
 Write a function remove(list, i) where list is an array,
 and i is a number. The function should not return
@@ -17,7 +18,8 @@ function remove(list, i) {
 }
 
 
-/*Task 2
+/*
+Task 2
 
 Write a function reversed(list) that takes an array of 
 strings, and returns a single which consists of all the 
@@ -45,6 +47,7 @@ var joined = first + second;
 
 You’ll probably also have to use an if/else statement 
 or a ternary at some point...
+
 */
 
 function reversed(list) {
@@ -54,7 +57,9 @@ function reversed(list) {
 }
 
 
-/*Task 3
+/*
+
+Task 3
 
 Write a function 
 calculatePercentages(scores, totalPossibleScore) where 
@@ -71,6 +76,7 @@ Example:
 var scores = [50, 120, 180, 10];
 var percentages = calculatePercentages(scores, 200);
 // percentages: [25, 60, 90, 5]
+
 */
 
 function calculatePercentages(scores, totalPossibleScore) {
