@@ -13,4 +13,26 @@ Comparison points is the total points a person earned.
 
 Given a and b, determine their respective comparison points.
  
- */
+*/
+
+
+function compareTriplets(a, b) {
+      // Write your code here
+      let score = [0, 0];
+     
+      for (var i = 0; i < a.length; i++) {
+            if(a[i] > b[i]) {
+                score[0]++;
+            }
+            if(a[i] < b[i]) {
+                    score[1]++;
+            } 
+            if(a[i] = b[i]) {
+                null;
+            }
+       }
+     return score;
+  }
+      
+compareTriplets(alice, bob);
+
