@@ -4,21 +4,31 @@
 
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="style.css">
 
     </head>
     
     <body>
-        <h1>Learn Javascript Step By Step</h1>
+        <div class="container">
 
-        <ul>
-            <li id="addZero">0</li>
-            <li id="add3">+3</li>
-            <li id="addNine">+9</li>
-            <li id="addNine">+9</li>
-        </ul>
+       
+            <h1>Learn Javascript Step By Step</h1>
 
-        <div class="result">Total </div>
+            <ul>
+                <li id="addZero">0</li>
+                <li id="addThree">+3</li>
+                <li id="addNine">+9</li>
+                <li id="addTwelve">+12</li>
+                <li id="add15">+15</li>
+                <li id="minusThirty">-30</li>
+            </ul>
+
+            <div>Total: <span class="result"></span></div>
+
+
+        </div>
 
         <script src="calc.js"></script>
         <!--
