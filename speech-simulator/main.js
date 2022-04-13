@@ -1,5 +1,7 @@
 document.querySelector('#check').addEventListener('click', check);
 
+const synth = window.speechSynthesis;
+
 
 function check() {
       const day = document.querySelector('#day').value;
@@ -22,6 +24,12 @@ function speak() {
       const fisrtName = document.querySelector('#firstName').value;
       const lastName = document.querySelector('#lastName').value;
 
-      document.getElementById("yell").innerHTML = `${fisrtName} ${lastName}`;
+      const textToYell = `${fisrtName} ${lastName}`;
+
+      document.getElementById("yell").innerText = textToYell;
+
+      let yellThis = new SpeechSynthesisUtterance(textToYell);
+      synth.speak(yellThis);
+      
 }
 
